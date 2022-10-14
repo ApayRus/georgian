@@ -1,0 +1,65 @@
+.letter {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+}
+
+.letterTranscription {
+	font-size: 1rem;
+	color: grey;
+}
+
+/* 
+.letter:hover {
+	border: 1px solid blue;
+	cursor: pointer;
+} 
+*/
+
+.words {
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid red;
+}
+
+.letters {
+	display: flex;
+	/* justify-content: flex-start;
+	border: 1px solid red; */
+}
+
+.word {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid gray;
+	margin-right: 1rem;
+}
+
+.word:last-child {
+	margin-right: 0px;
+}
+
+.wordBottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.playIcon {
+}
+
+.wordTranslation {
+	margin-left: 0.55rem;
+	color: grey;
+}
+
+.phrase {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid green;
+	justify-self: flex-start;
+}
